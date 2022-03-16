@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+// import 'package:flutter/rendering.dart';
+import 'package:flutter_catalog/home_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,10 +11,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Container(
-        child: Text("Me and My Pragani"),
-      ),
+       return MaterialApp(
+      home: HomePage(),
     );
   }
 }
